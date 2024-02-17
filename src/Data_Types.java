@@ -80,5 +80,7 @@ public class Data_Types {
         System.out.println("To Upper Case: " +text_1.toUpperCase());
         System.out.println("Combine: " +text_1 + " " + text_2);
         System.out.println("Combine: " +text_1.concat(" ").concat(text_2));
+        System.out.println("Include or not: " +text_1.contains("T"));
+        System.out.println("Replace 's' instance of 'x': " +text_1.replace("x", "s"));
     }
 }
