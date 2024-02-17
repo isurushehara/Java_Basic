@@ -1,4 +1,6 @@
 //USE CLASS AND OBJECT
+//CREATE PACKAGE AND MOVE THE PLAYER CLASS
+package Class_Object;
 
 //CREATE A CLASS NAMED "PLAYER"
 public class Player {
