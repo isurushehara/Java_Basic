@@ -68,5 +68,17 @@ public class Data_Types {
             System.out.println("normal_string1 != object_string1");
         }
 
+        System.out.println();
+
+        //STRING WITH METHOD
+        String text_1 = "Text01";
+        String text_2 = "Text02";
+
+        System.out.println("To Array: " + Arrays.toString(text_1.toCharArray()));
+        System.out.println("Length: " + text_1.length());
+        System.out.println("To Lover Case: " +text_1.toLowerCase());
+        System.out.println("To Upper Case: " +text_1.toUpperCase());
+        System.out.println("Combine: " +text_1 + " " + text_2);
+        System.out.println("Combine: " +text_1.concat(" ").concat(text_2));
     }
 }
