@@ -40,7 +40,7 @@ public class Array_List {
         //ARRAYLIST METHODS
         System.out.println("Contains: " +array_list.contains(3));
         System.out.println("Get: " +array_list.get(1));
-        System.out.println("Index of 'Hello': " +array_list.indexOf(12));
+        System.out.println("Index of '12': " +array_list.indexOf(12));
         System.out.println("Size: " +array_list.size());
     }
 }
