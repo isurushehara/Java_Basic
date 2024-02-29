@@ -1,3 +1,5 @@
+package Keywords;
+
 public class this_Person {
 
     //CREATE VARIABLES
@@ -24,7 +26,7 @@ public class this_Person {
 
     public static void main(String[] args) {
 
-        //CREATE 'this_Person' CLASS OBJECT
+        //CREATE 'Keywords.this_Person' CLASS OBJECT
         this_Person person_1 = new this_Person("Alex", 22);
         person_1.show_Detail();
     }
