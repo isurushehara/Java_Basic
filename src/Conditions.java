@@ -48,6 +48,7 @@ public class Conditions {
                 System.out.print("Is saturday class or free: ");
                 n.nextLine();
                 String work = n.nextLine();
+                n.close();
 
                 //CHECK SATURDAY FREE OR NOT
                 switch (work) {

@@ -20,6 +20,7 @@ public class Binary_Convert {
         //GET USER INPUT NUMBER
         System.out.print("Enter a number: ");
         int number = input.nextInt();
+        input.close();
 
         //CALL 'convert' METHOD WITH 'number' ARGUMENT
         converter.convert(number);

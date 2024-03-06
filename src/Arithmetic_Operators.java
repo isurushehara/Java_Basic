@@ -13,6 +13,9 @@ public class Arithmetic_Operators {
             System.out.print("Enter Second Number :");
         user_input_number2 = n.nextDouble();
 
+        //CLOSE THE CONNECTION
+        n.close();
+
         //OPERATIONS
         answer_add = user_input_number1 + user_input_number2;
         answer_sub = user_input_number1 - user_input_number2;
