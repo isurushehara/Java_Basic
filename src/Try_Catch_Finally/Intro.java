@@ -17,7 +17,7 @@ public class Intro {
     void Id() {
         try {
             temp_id = 2024 / age + 2024 - age;
-            System.out.println("ID: " + temp_id);
+            System.out.println("ID: " + temp_id); 
         } catch (Exception e) {
             System.out.println("Error: " + e);
         } finally {

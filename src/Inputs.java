@@ -15,7 +15,7 @@ public class Inputs {
         int age = n.nextInt();
         System.out.println("Your are "+ age); //PRINT
 
-        //CLOSE THE SCANNER CONNECTION
+        //CLOSE THE SCANNER CONNECTION  
         n.close();
     }
 }

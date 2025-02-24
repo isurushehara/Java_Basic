@@ -21,3 +21,4 @@ public class Class_Interface_Inheritance {
     //INTERFACE CAN MULTIPLE INHERIT MORE INTERFACES(extends)
     interface Interface_Interface_Interface extends Interface_01, Interface_02, Interface_03{}
 }
+
